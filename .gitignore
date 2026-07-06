@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.claude/
+# secrets
+.env
+# trained model artifacts live in the trading-models repo
+models/*.joblib
+# datasets live in the market-data-captures repo
+data/
+sim_data/
+# runtime logs & live results (wallet/order data — never publish)
+*.log
+*.log.*
+*.jsonl
+*.jsonl.bak.*
+# capture dirs
+latency_run_*/
+paper_archive_*/
